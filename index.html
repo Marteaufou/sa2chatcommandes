@@ -1,241 +1,263 @@
-Commands:
-!item {5ring | 10ring | 20ring | shield | magnet | speedshoes | invincibility | 1up | health | bomb} - Donne l'objet choisi ou un objet au hasard
-!omochao - Fait apparaître Omochao et donne un indice au hasard
-!timestop - Active un time stop
-!stop - Arrête le joueur
-!gottagofast - Propulse le joueur dans la direction qu'il regarde
-!tsafogattog - Propulse le joueur dans la direction opposée à son regard
-!superjump - Propulse le joueur vers le haut
-!pmujrepus - Propulse le joueur vers le bas
-!die - Tue le joueur (utilisable toutes les 5 minutes)
-!bonus {good | nice | great | jammin | cool | radical | tight | awesome | extreme | perfect | number} - Donne un bonus de point
-!highgravity - Multiplie la gravité par 2 (max 8)
-!lowgravity - Divise la gravité par 2 (max 1/8)
-!voice {id} - Joue la réplique choisie ou une au hasard
-!music {id} - Joue la musique choisie
-!grow - Multiplie la taille du joueur par 2 (max 8)
-!shrink - Divise la taille du joueur par 2 (max 1/8)
-!speedup - Multiplie la vitesse du joueur par 2 (max 8)
-!slowdown - Divise la vitesse du joueur par 2 (max 1/8)
-!healboss - Soigne le boss d'1 pv
-!confuse - Rend le joueur confus pendant 5 secondes
-!earthquake - Cause un tremblement de terre
-!water - Plonge/sors le joueur de l'eau
-!vote level {id} - Lance un vote pour le prochain niveau de l'histoire
-!vote event {id} - Lance un vote pour le prochain événement de l'histoire
-!vote credits - Lance un vote pour lancer les crédits de l'histoire, sélectionnable une fois par histoire
-!vote end - Lance un vote pour finir l'histoire
+<!-- HTML Codes by Quackit.com -->
+<!DOCTYPE html>
+<title>Text Example</title>
+<style>
+div.container {
+background-color: #ffffff;
+}
+div.container p {
+font-family: Arial;
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+text-decoration: none;
+text-transform: none;
+color: #000000;
+background-color: #ffffff;
+}
+</style>
 
-Level List:
-ce: City Escape
-bf: Big Foot
-wc: Wild Canyon
-tve1: Tails Vs Eggman 1
-pl: Prison Lane
-mha: Metal Harbor
-gf: Green Forest
-sovsh1: Sonic Vs Shadow 1
-ph: Pumpkin Hill
-mst: Mission Street
-am: Aquatic Mine
-r101: Route 101
-hb: Hidden Base
-pc: Pyramid Cave
-dc: Death Chamber
-kbb: King Boom Boo
-egs: Egg Golem (Sonic)
-ee: Eternal Engine
-mhe: Meteor Herd
-kvr: Knuckles Vs Rouge
-cg: Crazy Gadget
-tve2: Tails Vs Eggman 2
-fr: Final Rush
-sovsh2: Sonic Vs Shadow 2
-ig: Iron Gate
-hs: Hot Shot
-dl: Dry Lagoon
-so: Sand Ocean
-rh: Radical Highway
-eq: Egg Quarters
-lc: Lost Colony
-wb: Weapons Bed
-evt1: Eggman Vs Tails 1
-sh: Security Hall
-fd: Flying Dog
-wj: White Jungle
-shvso1: Shadow Vs Sonic 1
-r280: Route 280
-sr: Sky Rail
-ege: Egg Golem (Eggman)
-msp: Mad Space
-rvk: Rouge Vs Knuckles
-cw: Cosmic Wall
-evt2: Eggman Vs Tails 2
-fc: Final Chase
-shvso2: Shadow Vs Sonic 2
-cc: Cannon's Core
-bl: The Biolizard
-fh: The FinalHazard
-gh: Green Hill
-
-Liste des événements: https://info.sonicretro.org/SCHG:Sonic_Adventure_2/Event_List
-Note: Les cinématiques intégrées aux niveau ne peuvent pas être choisies
-
-Music List:
-0: Main Menu
-1: Advertise: SA2 ...in the groove
-2: Advertise: Rhythmic Passage
-3: Stage Select
-4: Advertise: Prof.Omochao
-5: Dive Into The Mellow ...for Aquatic Mine
-6: Boss: -GUN- Mobile
-7: Boss: Masters Of The Desert (King Boom Boo)
-8: Boss: Masters Of The Desert (Egg Golem)
-9: Boss: Suitable Opponent
-10: Boss: Shut Up Faker!
-11: For True Story ...for Sonic vs. Shadow
-12: Supporting Me ...for Biolizard
-13: Live & Learn (Loop)
-14: Downtown Race
-15: Hidden Base 2P
-16: Iron Gate 2P
-17: Metal Harbor 2P
-18: SA2B Opening
-19: Grind Race
-20: Radical Highway 2P
-21: 2P Battle Menu
-22: Sand Ocean 2P
-23: Weapons Bed 2P
-24: White Jungle 2P
-25: Dark Garden
-26: Hero Garden
-27: Chao Garden
-28: Chaos Chao Born
-29: Dark Chao Hatching
-30: Dark Chao Cocooning
-31: Hero Chao Hatching
-32: Hero Chao Cocooning
-33: Hero Chaos Chao Born
-34: Chao Mating Dance
-35: Chao Died
-36: Chao Race Gate Open
-37: New Chao Garden Unlocked
-38: Radio Song 1
-39: Radio Song 2
-40: Radio Song 3
-41: Radio Song 4
-42: Chao TV - Cartoon
-43: Chao TV - Drama
-44: Chao TV - Sports
-45: Chao World Entrance
-46: Chao Kindergarten
-47: Chao Kindergarten something?
-48: Connecting
-49: Connection Failed
-50: Connection Succeeded/Chao Level Up
-51: Dark Chao Song 1
-52: Dark Chao Song 2
-53: Dark Chao Song 3
-54: Hero Chao Song 1
-55: Hero Chao Song 2
-56: Hero Chao Song 3
-57: Chao Stadium Cave
-58: New Chao Garden Unlocked
-59: Chao Race Goal
-60: Beginner Race
-61: Challenge Race
-62: Hero Race
-63: Chao Departure Machine
-64: Chao Race Gate Open
-65: Dark Race
-66: Prize Awarded
-67: Jewel Race
-68: Continue Screen
-69: Chao Karate Champion
-70: Chao Race Entry
-71: Chao Karate Draw
-72: Chao Karate
-73: Chao Karate Loss
-74: Chao Karate Entry
-75: Chao Karate Win
-76: Scramble For The Core ...for Cannon's Core ver.1
-77: Cooperation ...for Cannon's Core ver.2
-78: Deep Inside Of... ...for Cannon's Core ver.3
-79: Cannon's Core Waterslide
-80: Escape From The City ...for City Escape
-81: The Mad Convoy Race ...for City Escape
-82: Escape From The City ...for City Escape (alt)
-83: Unstable World ...for Crazy Gadget
-84: Soarin' Over Space ...for Cosmic Wall
-85: Deeper ...for Death Chamber
-86: Bright Sound ...for Dry Lagoon
-87: Event: Let's Make It!
-88: Event: The Base
-89: E.G.G.M.A.N. (Hero Cutscene)
-90: Event: Strategy
-91: Event: Sonic vs. Shadow (Hero)
-92: Event: Reunion
-93: Event: Revival
-94: Throw It All Away (Cutscene)
-95: Event: Ambition
-96: Event: Operation
-97: Event: Reflection
-98: E.G.G.M.A.N. (Dark Cutscene)
-99: Event: Sonic vs. Shadow (Dark)
-100: Event: Madness
-101: Event: Super Sonic
-102: Event: Chaos Control
-103: Event: The Last Scene/Live & Learn
-104: Event: The Last Scene
-105: SA2 Opening
-106: On The Edge ...for Eternal Engine
-107: Lovely Gate 3 ...for Egg Quarters
-108: The Supernatural ...for Final Chase
-109: Highway In The Sky ...for Final Rush
-110: Won't Stop, Just Go! ...for Green Forest
-111: Green Hill
-112: Down In The Base ...for Hidden Base
-113: Still Invincible ...No Fear!
-114: Item Get Jingle
-115: Remember Me? - M.F.M. ...for Iron Gate
-116: Chasing Drive ...for Kart
-117: Trespasser ...for Lost Colony
-118: That's The Way I Like It ...for Metal Harbor
-119: Can't Stop, So What!? ...for Metal Harbor
-120: Space Trip Steps ...for Meteor Herd
-121: 34ºN, 12ºE ...for Mad Space
-122: Rumbling HWY ...for Mission Street
-123: Congratulations!
-124: Keys The Ruin ...for Pyramid Cave
-125: A Ghost's Pumpkin Soup ...for Pumpkin Hill
-126: This Way Out ...for Prison Lane
-127: Level Clear
-128: Vengeance Is Mine ...for Radical Highway
-129: Hey You! It's Time to Speed Up Again!
-130: I'm A Spy ...for Security Hall
-131: Way To The Base ...for Sand Ocean
-132: Mr.Unsmiley ...for Sky Rail
-133: Throw It All Away (Full)
-134: It Doesn't Matter (Full)
-135: I Wanna Fly High (Instrumental Loop 1)
-136: Fly In The Freedom (Vocal Loop 1)
-137: E.G.G.M.A.N. (Instrumental Loop)
-138: Unknown From M.E. (Vocal Loop 1)
-139: I Wanna Fly High (Instrumental Loop 2)
-140: Throw It All Away (Instrumental Loop)
-141: Unknown From M.E. (Instrumental Loop)
-142: Fly In The Freedom (Vocal Loop 2)
-143: It Doesn't Matter (Instrumental Loop)
-144: My Sweet Passion (Vocal Loop)
-145: E.G.G.M.A.N. (Vocal Loop)
-146: Unknown From M.E. (Vocal Loop 2)
-147: I Wanna Fly High (Vocal Loop)
-148: Fly In The Freedom (Vocal Loop 3)
-149: Throw It All Away (Vocal Loop)
-150: It Doesn't Matter (Vocal Loop)
-151: Drowning Timer
-152: Title Screen
-153: Crush'em All ...for Weapons Bed
-154: Kick the Rock! ...for Wild Canyon
-155: Rhythm and Balance ...for White Jungle
-156: Chao Goodbye
+<div class="container">
+<p>Commands:</p>
+<p>!item {5ring | 10ring | 20ring | shield | magnet | speedshoes | invincibility | 1up | health | bomb} - Donne l'objet choisi ou un objet au hasard</p>
+<p>!omochao - Fait apparaître Omochao et donne un indice au hasard</p>
+<p>!timestop - Active un time stop</p>
+<p>!stop - Arrête le joueur</p>
+<p>!gottagofast - Propulse le joueur dans la direction qu'il regarde</p>
+<p>!tsafogattog - Propulse le joueur dans la direction opposée à son regard</p>
+<p>!superjump - Propulse le joueur vers le haut</p>
+<p>!pmujrepus - Propulse le joueur vers le bas</p>
+<p>!die - Tue le joueur (utilisable toutes les 5 minutes)</p>
+<p>!bonus {good | nice | great | jammin | cool | radical | tight | awesome | extreme | perfect | number} - Donne un bonus de point</p>
+<p>!highgravity - Multiplie la gravité par 2 (max 8)</p>
+<p>!lowgravity - Divise la gravité par 2 (max 1/8)</p>
+<p>!voice {id} - Joue la réplique choisie ou une au hasard</p>
+<p>!music {id} - Joue la musique choisie</p>
+<p>!grow - Multiplie la taille du joueur par 2 (max 8)</p>
+<p>!shrink - Divise la taille du joueur par 2 (max 1/8)</p>
+<p>!speedup - Multiplie la vitesse du joueur par 2 (max 8)</p>
+<p>!slowdown - Divise la vitesse du joueur par 2 (max 1/8)</p>
+<p>!healboss - Soigne le boss d'1 pv</p>
+<p>!confuse - Rend le joueur confus pendant 5 secondes</p>
+<p>!earthquake - Cause un tremblement de terre</p>
+<p>!water - Plonge/sors le joueur de l'eau</p>
+<p>!vote level {id} - Lance un vote pour le prochain niveau de l'histoire</p>
+<p>!vote event {id} - Lance un vote pour le prochain événement de l'histoire</p>
+<p>!vote credits - Lance un vote pour lancer les crédits de l'histoire, sélectionnable une fois par histoire</p>
+<p>!vote end - Lance un vote pour finir l'histoire</p>
+<p></p>
+<p>Level List:</p>
+<p>ce: City Escape</p>
+<p>bf: Big Foot</p>
+<p>wc: Wild Canyon</p>
+<p>tve1: Tails Vs Eggman 1</p>
+<p>pl: Prison Lane</p>
+<p>mha: Metal Harbor</p>
+<p>gf: Green Forest</p>
+<p>sovsh1: Sonic Vs Shadow 1</p>
+<p>ph: Pumpkin Hill</p>
+<p>mst: Mission Street</p>
+<p>am: Aquatic Mine</p>
+<p>r101: Route 101</p>
+<p>hb: Hidden Base</p>
+<p>pc: Pyramid Cave</p>
+<p>dc: Death Chamber</p>
+<p>kbb: King Boom Boo</p>
+<p>egs: Egg Golem (Sonic)</p>
+<p>ee: Eternal Engine</p>
+<p>mhe: Meteor Herd</p>
+<p>kvr: Knuckles Vs Rouge</p>
+<p>cg: Crazy Gadget</p>
+<p>tve2: Tails Vs Eggman 2</p>
+<p>fr: Final Rush</p>
+<p>sovsh2: Sonic Vs Shadow 2</p>
+<p>ig: Iron Gate</p>
+<p>hs: Hot Shot</p>
+<p>dl: Dry Lagoon</p>
+<p>so: Sand Ocean</p>
+<p>rh: Radical Highway</p>
+<p>eq: Egg Quarters</p>
+<p>lc: Lost Colony</p>
+<p>wb: Weapons Bed</p>
+<p>evt1: Eggman Vs Tails 1</p>
+<p>sh: Security Hall</p>
+<p>fd: Flying Dog</p>
+<p>wj: White Jungle</p>
+<p>shvso1: Shadow Vs Sonic 1</p>
+<p>r280: Route 280</p>
+<p>sr: Sky Rail</p>
+<p>ege: Egg Golem (Eggman)</p>
+<p>msp: Mad Space</p>
+<p>rvk: Rouge Vs Knuckles</p>
+<p>cw: Cosmic Wall</p>
+<p>evt2: Eggman Vs Tails 2</p>
+<p>fc: Final Chase</p>
+<p>shvso2: Shadow Vs Sonic 2</p>
+<p>cc: Cannon's Core</p>
+<p>bl: The Biolizard</p>
+<p>fh: The FinalHazard</p>
+<p>gh: Green Hill</p>
+<p></p>
+<p>Liste des événements: https://info.sonicretro.org/SCHG:Sonic_Adventure_2/Event_List</p>
+<p>Note: Les cinématiques intégrées aux niveau ne peuvent pas être choisies</p>
+<p></p>
+<p>Music List:</p>
+<p>0: Main Menu</p>
+<p>1: Advertise: SA2 ...in the groove</p>
+<p>2: Advertise: Rhythmic Passage</p>
+<p>3: Stage Select</p>
+<p>4: Advertise: Prof.Omochao</p>
+<p>5: Dive Into The Mellow ...for Aquatic Mine</p>
+<p>6: Boss: -GUN- Mobile</p>
+<p>7: Boss: Masters Of The Desert (King Boom Boo)</p>
+<p>8: Boss: Masters Of The Desert (Egg Golem)</p>
+<p>9: Boss: Suitable Opponent</p>
+<p>10: Boss: Shut Up Faker!</p>
+<p>11: For True Story ...for Sonic vs. Shadow</p>
+<p>12: Supporting Me ...for Biolizard</p>
+<p>13: Live & Learn (Loop)</p>
+<p>14: Downtown Race</p>
+<p>15: Hidden Base 2P</p>
+<p>16: Iron Gate 2P</p>
+<p>17: Metal Harbor 2P</p>
+<p>18: SA2B Opening</p>
+<p>19: Grind Race</p>
+<p>20: Radical Highway 2P</p>
+<p>21: 2P Battle Menu</p>
+<p>22: Sand Ocean 2P</p>
+<p>23: Weapons Bed 2P</p>
+<p>24: White Jungle 2P</p>
+<p>25: Dark Garden</p>
+<p>26: Hero Garden</p>
+<p>27: Chao Garden</p>
+<p>28: Chaos Chao Born</p>
+<p>29: Dark Chao Hatching</p>
+<p>30: Dark Chao Cocooning</p>
+<p>31: Hero Chao Hatching</p>
+<p>32: Hero Chao Cocooning</p>
+<p>33: Hero Chaos Chao Born</p>
+<p>34: Chao Mating Dance</p>
+<p>35: Chao Died</p>
+<p>36: Chao Race Gate Open</p>
+<p>37: New Chao Garden Unlocked</p>
+<p>38: Radio Song 1</p>
+<p>39: Radio Song 2</p>
+<p>40: Radio Song 3</p>
+<p>41: Radio Song 4</p>
+<p>42: Chao TV - Cartoon</p>
+<p>43: Chao TV - Drama</p>
+<p>44: Chao TV - Sports</p>
+<p>45: Chao World Entrance</p>
+<p>46: Chao Kindergarten</p>
+<p>47: Chao Kindergarten something?</p>
+<p>48: Connecting</p>
+<p>49: Connection Failed</p>
+<p>50: Connection Succeeded/Chao Level Up</p>
+<p>51: Dark Chao Song 1</p>
+<p>52: Dark Chao Song 2</p>
+<p>53: Dark Chao Song 3</p>
+<p>54: Hero Chao Song 1</p>
+<p>55: Hero Chao Song 2</p>
+<p>56: Hero Chao Song 3</p>
+<p>57: Chao Stadium Cave</p>
+<p>58: New Chao Garden Unlocked</p>
+<p>59: Chao Race Goal</p>
+<p>60: Beginner Race</p>
+<p>61: Challenge Race</p>
+<p>62: Hero Race</p>
+<p>63: Chao Departure Machine</p>
+<p>64: Chao Race Gate Open</p>
+<p>65: Dark Race</p>
+<p>66: Prize Awarded</p>
+<p>67: Jewel Race</p>
+<p>68: Continue Screen</p>
+<p>69: Chao Karate Champion</p>
+<p>70: Chao Race Entry</p>
+<p>71: Chao Karate Draw</p>
+<p>72: Chao Karate</p>
+<p>73: Chao Karate Loss</p>
+<p>74: Chao Karate Entry</p>
+<p>75: Chao Karate Win</p>
+<p>76: Scramble For The Core ...for Cannon's Core ver.1</p>
+<p>77: Cooperation ...for Cannon's Core ver.2</p>
+<p>78: Deep Inside Of... ...for Cannon's Core ver.3</p>
+<p>79: Cannon's Core Waterslide</p>
+<p>80: Escape From The City ...for City Escape</p>
+<p>81: The Mad Convoy Race ...for City Escape</p>
+<p>82: Escape From The City ...for City Escape (alt)</p>
+<p>83: Unstable World ...for Crazy Gadget</p>
+<p>84: Soarin' Over Space ...for Cosmic Wall</p>
+<p>85: Deeper ...for Death Chamber</p>
+<p>86: Bright Sound ...for Dry Lagoon</p>
+<p>87: Event: Let's Make It!</p>
+<p>88: Event: The Base</p>
+<p>89: E.G.G.M.A.N. (Hero Cutscene)</p>
+<p>90: Event: Strategy</p>
+<p>91: Event: Sonic vs. Shadow (Hero)</p>
+<p>92: Event: Reunion</p>
+<p>93: Event: Revival</p>
+<p>94: Throw It All Away (Cutscene)</p>
+<p>95: Event: Ambition</p>
+<p>96: Event: Operation</p>
+<p>97: Event: Reflection</p>
+<p>98: E.G.G.M.A.N. (Dark Cutscene)</p>
+<p>99: Event: Sonic vs. Shadow (Dark)</p>
+<p>100: Event: Madness</p>
+<p>101: Event: Super Sonic</p>
+<p>102: Event: Chaos Control</p>
+<p>103: Event: The Last Scene/Live & Learn</p>
+<p>104: Event: The Last Scene</p>
+<p>105: SA2 Opening</p>
+<p>106: On The Edge ...for Eternal Engine</p>
+<p>107: Lovely Gate 3 ...for Egg Quarters</p>
+<p>108: The Supernatural ...for Final Chase</p>
+<p>109: Highway In The Sky ...for Final Rush</p>
+<p>110: Won't Stop, Just Go! ...for Green Forest</p>
+<p>111: Green Hill</p>
+<p>112: Down In The Base ...for Hidden Base</p>
+<p>113: Still Invincible ...No Fear!</p>
+<p>114: Item Get Jingle</p>
+<p>115: Remember Me? - M.F.M. ...for Iron Gate</p>
+<p>116: Chasing Drive ...for Kart</p>
+<p>117: Trespasser ...for Lost Colony</p>
+<p>118: That's The Way I Like It ...for Metal Harbor</p>
+<p>119: Can't Stop, So What!? ...for Metal Harbor</p>
+<p>120: Space Trip Steps ...for Meteor Herd</p>
+<p>121: 34ºN, 12ºE ...for Mad Space</p>
+<p>122: Rumbling HWY ...for Mission Street</p>
+<p>123: Congratulations!</p>
+<p>124: Keys The Ruin ...for Pyramid Cave</p>
+<p>125: A Ghost's Pumpkin Soup ...for Pumpkin Hill</p>
+<p>126: This Way Out ...for Prison Lane</p>
+<p>127: Level Clear</p>
+<p>128: Vengeance Is Mine ...for Radical Highway</p>
+<p>129: Hey You! It's Time to Speed Up Again!</p>
+<p>130: I'm A Spy ...for Security Hall</p>
+<p>131: Way To The Base ...for Sand Ocean</p>
+<p>132: Mr.Unsmiley ...for Sky Rail</p>
+<p>133: Throw It All Away (Full)</p>
+<p>134: It Doesn't Matter (Full)</p>
+<p>135: I Wanna Fly High (Instrumental Loop 1)</p>
+<p>136: Fly In The Freedom (Vocal Loop 1)</p>
+<p>137: E.G.G.M.A.N. (Instrumental Loop)</p>
+<p>138: Unknown From M.E. (Vocal Loop 1)</p>
+<p>139: I Wanna Fly High (Instrumental Loop 2)</p>
+<p>140: Throw It All Away (Instrumental Loop)</p>
+<p>141: Unknown From M.E. (Instrumental Loop)</p>
+<p>142: Fly In The Freedom (Vocal Loop 2)</p>
+<p>143: It Doesn't Matter (Instrumental Loop)</p>
+<p>144: My Sweet Passion (Vocal Loop)</p>
+<p>145: E.G.G.M.A.N. (Vocal Loop)</p>
+<p>146: Unknown From M.E. (Vocal Loop 2)</p>
+<p>147: I Wanna Fly High (Vocal Loop)</p>
+<p>148: Fly In The Freedom (Vocal Loop 3)</p>
+<p>149: Throw It All Away (Vocal Loop)</p>
+<p>150: It Doesn't Matter (Vocal Loop)</p>
+<p>151: Drowning Timer</p>
+<p>152: Title Screen</p>
+<p>153: Crush'em All ...for Weapons Bed</p>
+<p>154: Kick the Rock! ...for Wild Canyon</p>
+<p>155: Rhythm and Balance ...for White Jungle</p>
+<p>156: Chao Goodbye</p>
+<p></p>
+</div>
